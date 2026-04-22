@@ -4,8 +4,9 @@ import httpx
 from typing import Optional
 
 BASE_URL = "https://graph.facebook.com/v21.0"
-TOKEN = os.getenv("META_ACCESS_TOKEN")
-AD_ACCOUNT = os.getenv("META_AD_ACCOUNT_ID")  # ex: act_123456789
+TOKEN = os.getenv("META_ACCESS_TOKEN", "")
+AD_ACCOUNT = os.getenv("META_AD_ACCOUNT_ID", "")  # ex: act_123456789
+# TOKEN e AD_ACCOUNT podem ser sobrescritos pelo agent.py por sessão de cliente
 
 
 def _get(path: str, params: dict = {}) -> dict:

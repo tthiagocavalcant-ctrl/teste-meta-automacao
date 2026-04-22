@@ -1,0 +1,20 @@
+{
+  "gestores_autorizados": [
+    "5511999990001",
+    "5511999990002"
+  ],
+  "clientes": {
+    "imobiliaria abc": {
+      "nome": "Imobiliária ABC",
+      "meta_token": "EAAxxxxx",
+      "ad_account_id": "act_111111111",
+      "page_id": "111111111"
+    },
+    "imobiliaria xyz": {
+      "nome": "Imobiliária XYZ",
+      "meta_token": "EAAyyyyy",
+      "ad_account_id": "act_222222222",
+      "page_id": "222222222"
+    }
+  }
+}

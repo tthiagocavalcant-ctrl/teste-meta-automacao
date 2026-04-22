@@ -1,6 +1,7 @@
 import json
 import anthropic
 import meta_api
+import client_db
 from tools import TOOLS
 from interests_db import INTEREST_MAP, get_interests, list_available
 
@@ -167,6 +168,12 @@ REGRAS GERAIS
 """ + _build_interest_reference()
 
 _conversations: dict[str, list] = {}
+_session_client: dict[str, dict] = {}  # sender → credenciais do cliente ativo
+
+
+def _get_meta_credentials(sender: str) -> dict:
+    """Retorna as credenciais Meta do cliente ativo na sessão."""
+    return _session_client.get(sender, {})
 
 
 def _execute_tool(tool_name: str, tool_input: dict) -> str:
@@ -262,6 +269,18 @@ def _execute_tool(tool_name: str, tool_input: dict) -> str:
 def chat(sender: str, user_message: str, media_url: str = None, media_type: str = None) -> str:
     history = _conversations.setdefault(sender, [])
 
+    # Detecta se o planejamento menciona um cliente e carrega suas credenciais
+    if user_message:
+        for key in client_db._load().get("clientes", {}):
+            if key in user_message.lower():
+                creds = client_db.get_client(key)
+                if creds:
+                    _session_client[sender] = creds
+                    # Injeta credenciais no contexto da sessão
+                    meta_api.TOKEN = creds["meta_token"]
+                    meta_api.AD_ACCOUNT = creds["ad_account_id"]
+                break
+
     content = user_message or ""
     if media_url and media_type == "image":
         content += f"\n[Imagem recebida via WhatsApp — URL para upload: {media_url}]"
@@ -305,3 +324,4 @@ def chat(sender: str, user_message: str, media_url: str = None, media_type: str 
 
 def clear_history(sender: str):
     _conversations.pop(sender, None)
+    _session_client.pop(sender, None)
