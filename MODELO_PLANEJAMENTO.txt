@@ -1,0 +1,95 @@
+════════════════════════════════════════════════════
+         PLANEJAMENTO DE CAMPANHA — META ADS
+             Metodologia Imobiliária
+════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ CAMPANHA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Nome da Campanha: [ex: Classe M - Portovelas]
+Orçamento Diário: R$ [ex: 40]
+Classe do Empreendimento: [Baixo / Médio / Alto Padrão]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ CONTA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Página do Facebook: [nome da página]
+Formulário de Lead: [nome do formulário]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ CONJUNTO A  |  Região A (maior)  |  Padrão + Limitado
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Nome do Conjunto: [ex: 4 Pinos - Padrão Limit. Investidores 28-55]
+Região A: [ex: Itajaí + Balneário Camboriú + Brusque + Itapema]
+Idade: [ex: 28 a 55]
+Público Limitado a: [ex: Investidores]
+
+  Opções de público limitado disponíveis:
+  - Investidores
+  - Pessoas com Grana
+  - Empresários
+  - Litoral
+  - Marcas de Luxo
+  - Lugares [especificar]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ CONJUNTO B  |  Região A (maior)  |  Padrão
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Nome do Conjunto: [ex: 4 Pinos - Padrão 28-65]
+Região A: [mesma do Conjunto A]
+Idade: [ex: 28 a 65]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ CONJUNTO C  |  Região B (menor)  |  Padrão
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Nome do Conjunto: [ex: Itajaí - Padrão 35-65]
+Região B: [ex: Itajaí-SC]
+Idade: [ex: 35 a 65]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ TEXTOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Texto 1:
+[colar aqui]
+
+Texto 2:
+[colar aqui]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ TÍTULOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Título 1: [colar aqui]
+Título 2: [colar aqui]
+Título 3: [colar aqui]
+Título 4: [colar aqui]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ANÚNCIOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+(Conj A e B usam Anúncio A e B. Conj C usa Anúncio C e D.)
+
+Anúncio A
+  Nome: [ex: Portovelas | Vídeo 1 | Texto 1 | Título 1]
+  Criativo: [enviar arquivo ou URL]
+  Texto: Texto 1
+  Título: Título 1
+
+Anúncio B
+  Nome: [ex: Portovelas | Vídeo 2 | Texto 2 | Título 2]
+  Criativo: [enviar arquivo ou URL]
+  Texto: Texto 2
+  Título: Título 2
+
+Anúncio C
+  Nome: [ex: Portovelas | Imagem 1 | Texto 1 | Título 3]
+  Criativo: [enviar arquivo ou URL]
+  Texto: Texto 1
+  Título: Título 3
+
+Anúncio D
+  Nome: [ex: Portovelas | Imagem 2 | Texto 2 | Título 4]
+  Criativo: [enviar arquivo ou URL]
+  Texto: Texto 2
+  Título: Título 4
+
+════════════════════════════════════════════════════
